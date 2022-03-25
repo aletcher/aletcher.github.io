@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: about
-subtitle: <a href='https://www.maths.ox.ac.uk/study-here/postgraduate-study/msc-mathematics-and-foundations-computer-science'>MSc in Mathematics and Computer Science • University of Oxford</a>
+subtitle: <a href='https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematics-and-foundations-computer-science'>MSc in Mathematics and Computer Science • University of Oxford</a>
 
 profile:
   align: right
