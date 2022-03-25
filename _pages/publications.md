@@ -18,7 +18,7 @@ nav: true
 
 <br/>
 <h2 class="publications">{{"theses"}}</h2>
-<h2 class="year">{{}}</h2>
+<h2 class="year"></h2>
 <br/><br/>
 {% bibliography -f theses %}
 

@@ -83,9 +83,8 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   width: 100%;
-
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -104,6 +103,10 @@ blockquote {
       p { display: block; }
     }
   }
+}
+
+.about-header {
+  padding-bottom: 1.5rem;
 }
 
 .post-description {
@@ -240,6 +243,9 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 2rem;
+    margin-top: 2rem;
     font-size: 4rem;
     a {
       i::before {
@@ -263,6 +269,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
