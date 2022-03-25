@@ -1,24 +1,20 @@
 ---
 layout: about
-title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+title: about
+subtitle: <a href='https://www.maths.ox.ac.uk/study-here/postgraduate-study/msc-mathematics-and-foundations-computer-science'>MSc in Mathematics and Computer Science • University of Oxford</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: desert.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Currently freelancing between parallel careers in [academic research](https://aletcher.github.io/publications/) and [contemporary dance](https://www.bodhiproject.at/index.php/company/members).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I studied pure mathematics and computer science, writing my [bachelor thesis](https://aletcher.github.io/assets/pdf/bsc_thesis.pdf) in number theory and my [master thesis](https://aletcher.github.io/assets/pdf/msc_thesis.pdf) on differentiable games (with applications to GANs and multi-agent RL). Awarded best thesis in Oxford Computer Science. [Here](https://aletcher.github.io/publications/) are a few papers I wrote since then.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Looking for collaborators and research internships before settling into a PhD or industry research position. Feel free to reach out!
