@@ -11,14 +11,6 @@
   abstract={Adversarial attacks in reinforcement learning (RL) often assume highly-privileged access to the learning agent’s parameters, environment or data. Instead, this paper proposes a novel adversarial setting called a Cheap Talk MDP in which an Adversary has a minimal range of influence over the Victim. Parameterised as a deterministic policy that only conditions on the current state, an Adversary can merely append information to a Victim’s observation. To motivate the minimum-viability, we prove that in this setting the Adversary cannot occlude the ground truth, influence the underlying dynamics of the environment, introduce non-stationarity, add stochasticity, see the Victim’s actions, or access their parameters. Additionally, we present a novel meta-learning algorithm to train the Adversary, called adversarial cheap talk (ACT). Using ACT, we demonstrate that the resulting Adversary still manages to influence the Victim’s training and test performance despite these restrictive assumptions. Affecting train-time performance reveals a new attack vector and provides insight into the success and failure modes of existing RL algorithms. More specifically, we show that an ACT Adversary is capable of harming performance by interfering with the learner’s function approximation and helping the Victim’s performance by appending useful features. Finally, we demonstrate that an ACT Adversary can append information during train-time to directly and arbitrarily control the Victim at test-time in a zero-shot manner.}
 }
 
-@article{dpo,
-  title={Discovered Policy Optimisation},
-  author={C. Lu and J. Kuba and A. Letcher and L. Metz and C. Schroeder de Witt and J. Foerster},
-  year={2022},
-  abbr={preprint},
-  abstract={The last decade has been revolutionary for reinforcement learning (RL) — it can now solve complex decision and control problems. Successful RL methods were handcrafted using mathematical derivations, intuition, and experimentation. This approach has a major shortcoming—it results in specific solutions to the RL problem, rather than a protocol for discovering efficient and robust methods. In contrast, the emerging field of meta-learning provides a toolkit for automatic machine learning method optimisation, potentially addressing this flaw. However, black-box approaches which attempt to discover RL algorithms with minimal prior structure have thus far not been successful. Mirror Learning, which includes RL algorithms, such as PPO, offers a potential framework. In this paper we explore the Mirror Learning space by meta-learning a “drift” function. We refer to the result as Learnt Policy Optimisation (LPO). By analysing LPO we gain original insights into policy optimisation which we use to formulate a novel, closed-form RL algorithm, Discovered Policy Optimisation (DPO). Our experiments in Brax environments confirm state-of-the-art performance of LPO and DPO, as well as their transfer to unseen settings.}
-}
-
 @article{polymatrix,
   title={Polymatrix Competitive Gradient Descent},
   author={J. Ma and A. Letcher and F. Sch{\"a}fer and Y. Shi and A. Anandkumar},
@@ -26,6 +18,16 @@
   abbr={preprint},
   arxiv={2111.08565},
   abstract={Many economic games and machine learning approaches can be cast as competitive optimization problems where multiple agents are minimizing their respective objective function, which depends on all agents' actions. While gradient descent is a reliable basic workhorse for single-agent optimization, it often leads to oscillation in competitive optimization. In this work we propose polymatrix competitive gradient descent (PCGD) as a method for solving general sum competitive optimization involving arbitrary numbers of agents. The updates of our method are obtained as the Nash equilibria of a local polymatrix approximation with a quadratic regularization, and can be computed efficiently by solving a linear system of equations. We prove local convergence of PCGD to stable fixed points for n-player general-sum games, and show that it does not require adapting the step size to the strength of the player-interactions. We use PCGD to optimize policies in multi-agent reinforcement learning and demonstrate its advantages in Snake, Markov soccer and an electricity market game. Agents trained by PCGD outperform agents trained with simultaneous gradient descent, symplectic gradient adjustment, and extragradient in Snake and Markov soccer games and on the electricity market game, PCGD trains faster than both simultaneous gradient descent and the extragradient method.}
+}
+
+@article{dpo,
+  title={Discovered Policy Optimisation},
+  author={C. Lu and J. Kuba and A. Letcher and L. Metz and C. Schroeder de Witt and J. Foerster},
+  journal={Advances in Neural Information Processing Systems},
+  html={https://openreview.net/forum?id=vsQ4gufZ-Ve},
+  year={2022},
+  abbr={NIPS},
+  abstract={The last decade has been revolutionary for reinforcement learning (RL) — it can now solve complex decision and control problems. Successful RL methods were handcrafted using mathematical derivations, intuition, and experimentation. This approach has a major shortcoming—it results in specific solutions to the RL problem, rather than a protocol for discovering efficient and robust methods. In contrast, the emerging field of meta-learning provides a toolkit for automatic machine learning method optimisation, potentially addressing this flaw. However, black-box approaches which attempt to discover RL algorithms with minimal prior structure have thus far not been successful. Mirror Learning, which includes RL algorithms, such as PPO, offers a potential framework. In this paper we explore the Mirror Learning space by meta-learning a “drift” function. We refer to the result as Learnt Policy Optimisation (LPO). By analysing LPO we gain original insights into policy optimisation which we use to formulate a novel, closed-form RL algorithm, Discovered Policy Optimisation (DPO). Our experiments in Brax environments confirm state-of-the-art performance of LPO and DPO, as well as their transfer to unseen settings.}
 }
 
 @article{cola,
