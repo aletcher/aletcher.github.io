@@ -13,9 +13,6 @@ news: false
 social: true
 ---
 
-Currently freelancing between parallel careers in [academic research](https://aletcher.github.io/publications/) and [contemporary dance](https://www.bodhiproject.at/dancers/).
+Working as a freelancer in [AI research](https://aletcher.github.io/publications/) and, occasionally, [contemporary dance](https://www.bodhiproject.at/dancers/). Current research focuses around game theory, optimisation, reinforcement learning and multi-agent learning, but I'm more generally interested in theoretical underpinnings of machine learning and going beyond curve-fitting to abstraction & reasoning. (Side-kick interests include quantum computing, diagrammatic reasoning, number theory, and all things mathematical...)
 
-I studied pure mathematics and computer science, writing my [bachelor thesis](https://aletcher.github.io/assets/pdf/bsc_thesis.pdf) in number theory and my [master thesis](https://aletcher.github.io/assets/pdf/msc_thesis.pdf) on differentiable games (with applications to GANs and multi-agent RL). Awarded best thesis in Oxford Computer Science. Here are a few [papers](https://aletcher.github.io/publications/) I wrote since then.
-
-
-Looking for collaborators and research internships before settling into a PhD or industry research position. Feel free to reach out!
+My background is in pure mathematics and computer science, with a [bachelor thesis](https://aletcher.github.io/assets/pdf/bsc_thesis.pdf) in algebraic number theory and a [master thesis](https://aletcher.github.io/assets/pdf/msc_thesis.pdf) on differentiable games (with applications to GANs and multi-agent RL). Here are a few [papers](https://aletcher.github.io/publications/) published with collaborators since then.
