@@ -13,7 +13,7 @@ news: false
 social: true
 ---
 
-Previously: <a href='https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematics-and-foundations-computer-science'>MSc in Mathematics and Theoretical Computer Science @ University of Oxford</a>
+Previously: MSc Mathematics and Theoretical Computer Science @ <a href='https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematics-and-foundations-computer-science'>University of Oxford</a>
 
 Currently: working @ <a href='https://www.zurich.ibm.com/'>IBM Research Zurich</a>.
 
