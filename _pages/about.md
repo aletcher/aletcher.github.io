@@ -13,8 +13,10 @@ news: false
 social: true
 ---
 
-Currently working @ IBM Research Zurich, supervised by [Stefan Woerner](https://research.ibm.com/people/stefan-worner).
+Currently working at IBM Research Zurich.
 
-Interests: theory of learning \ game theory \ optimisation \ quantum computing \ number theory \ going beyond pattern recognition towards abstraction & reasoning. 🤓
+Interests: learning theory | game theory | going beyond pattern recognition towards abstraction & reasoning.
 
-Background: pure mathematics & theoretical computer science. [Bachelor thesis](https://aletcher.github.io/assets/pdf/bsc_thesis.pdf) in algebraic number theory and [master thesis](https://aletcher.github.io/assets/pdf/msc_thesis.pdf) on differentiable games, with applications to GANs & multi-agent RL. [Here](https://aletcher.github.io/publications/) are a few papers published since then.
+Sidekicks: contemporary dance | climbing | quantum computing.
+
+Background: pure mathematics. [Bachelor thesis](https://aletcher.github.io/assets/pdf/bsc_thesis.pdf) in algebraic number theory and [master thesis](https://aletcher.github.io/assets/pdf/msc_thesis.pdf) on differentiable games, with applications to multi-agent learning (including GANs & RL). [Here](https://aletcher.github.io/publications/) are a list of papers I was lucky to publish since then.
