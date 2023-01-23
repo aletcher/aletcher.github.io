@@ -13,6 +13,8 @@ news: false
 social: true
 ---
 
-Working freelance in [AI research](https://aletcher.github.io/publications/) and, occasionally, [contemporary dance](https://www.bodhiproject.at/dancers/). Currently focusing on multi-agent learning / game theory / optimisation / RL, but I'm generally interested in theoretical underpinnings of ML and aiming to go beyond curve-fitting towards abstraction & reasoning. Sidekicks: quantum computing, diagrammatic reasoning, number theory, and all things mathematical. 🤓
+Currently working @ IBM Research Zurich, supervised by [Stefan Woerner](https://research.ibm.com/people/stefan-worner).
 
-My background is in mathematics and theoretical CS, with a [bachelor thesis](https://aletcher.github.io/assets/pdf/bsc_thesis.pdf) in algebraic number theory and a [master thesis](https://aletcher.github.io/assets/pdf/msc_thesis.pdf) on differentiable games (with applications to GANs & multi-agent RL). [Here](https://aletcher.github.io/publications/) are a few papers I was lucky to publish with brilliant collaborators since then!
+Interests: theory of learning \ game theory \ optimisation \ quantum computing \ number theory \ going beyond pattern recognition towards abstraction & reasoning. 🤓
+
+Background: pure mathematics & theoretical computer science. [Bachelor thesis](https://aletcher.github.io/assets/pdf/bsc_thesis.pdf) in algebraic number theory and [master thesis](https://aletcher.github.io/assets/pdf/msc_thesis.pdf) on differentiable games, with applications to GANs & multi-agent RL. [Here](https://aletcher.github.io/publications/) are a few papers published since then.
