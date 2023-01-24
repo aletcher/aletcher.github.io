@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: about
-subtitle: <test>Mathematics & AI Researcher</test>
+subtitle: <test>Mathematician & AI Researcher</test>
 
 profile:
   align: right
