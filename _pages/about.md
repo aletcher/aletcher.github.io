@@ -13,7 +13,7 @@ news: false
 social: true
 ---
 
-Currently: working @ <a href='https://www.zurich.ibm.com/'>IBM Research Zurich</a>.
+Currently: working @ <a href='https://research.ibm.com/people/alistair-letcher'>IBM Research Zurich</a>.
 
 Previously: MSc in Mathematics & Theoretical CS @ <a href='https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematics-and-foundations-computer-science'>University of Oxford</a>.
 
