@@ -1,14 +1,12 @@
 ---
 ---
 
-#@string{aps = {American Physical Society,}}
-
-@article{bounds,
+@article{quantum,
       title={From Tight Gradient Bounds for Parameterized Quantum Circuits to the Absence of Barren Plateaus in QGANs}, 
       author={Alistair Letcher and Stefan Woerner and Christa Zoufal},
       year={2023},
       arxiv={2309.12681},
-      abbr={preprint}
+      abbr={preprint},
       abstract={Barren plateaus are a central bottleneck in the scalability of variational quantum algorithms (VQAs), and are known to arise in various ways, from circuit depth and hardware noise to global observables. However, a caveat of most existing results is the requirement of t-design circuit assumptions that are typically not satisfied in practice. In this work, we loosen these assumptions altogether and derive tight upper and lower bounds on gradient concentration, for a large class of parameterized quantum circuits and arbitrary observables. By requiring only a couple of design choices that are constructive and easily verified, our results can readily be leveraged to rule out barren plateaus for explicit circuits and mixed observables, namely, observables containing a non-vanishing local term. This insight has direct implications for hybrid Quantum Generative Adversarial Networks (qGANs), a generative model that can be reformulated as a VQA with an observable composed of local and global terms. We prove that designing the discriminator appropriately leads to 1-local weights that stay constant in the number of qubits, regardless of discriminator depth. Combined with our first contribution, this implies that qGANs with shallow generators can be trained at scale without suffering from barren plateaus -- making them a promising candidate for applications in generative quantum machine learning. We demonstrate this result by training a qGAN to learn a 2D mixture of Gaussian distributions with up to 16 qubits, and provide numerical evidence that global contributions to the gradient, while initially exponentially small, may kick in substantially over the course of training.}
 }
 
