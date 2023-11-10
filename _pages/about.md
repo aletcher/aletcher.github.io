@@ -17,4 +17,4 @@ Currently: working @ <a href='https://www.zurich.ibm.com'>IBM Research Zurich</a
 
 Previously: MSc in Mathematics & Theoretical CS @ <a href='https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematics-and-foundations-computer-science'>University of Oxford</a>.
 
-While most of my [recent research](https://aletcher.github.io/publications/) focuses on game theory and reinforcement learning, I am increasingly interested in the all-important problem of AI [alignment](https://www.alignmentforum.org/) & [safety](https://arxiv.org/pdf/1606.06565.pdf), along with [abstraction & reasoning](https://github.com/fchollet/ARC).
+While most of my [recent research](https://aletcher.github.io/publications/) centers around game theory and reinforcement learning, I am increasingly interested in the pressing problem of AI [alignment](https://www.alignmentforum.org/) & [safety](https://arxiv.org/pdf/1606.06565.pdf), along with [abstraction & reasoning](https://github.com/fchollet/ARC).
