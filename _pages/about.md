@@ -13,8 +13,8 @@ news: false
 social: true
 ---
 
-Currently: working @ <a href='https://www.zurich.ibm.com'>IBM Research Zurich</a>.
+Currently: 1st year PhD @ University of Oxford, supervised by [Jakob Foerster](https://foersterlab.com/).
 
-Previously: MSc in Mathematics & Theoretical CS @ <a href='https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematics-and-foundations-computer-science'>University of Oxford</a>.
+While my [past research](https://aletcher.github.io/publications/) mostly focused on game theory and reinforcement learning, my PhD will be centered around the ethically pressing problem of [AI safety & alignment](https://en.wikipedia.org/wiki/AI_safety), along with [abstraction & reasoning](https://github.com/fchollet/ARC). I'm also keen on working on a number of fun, unresolved mathematical problems like the [density of the EM sequence](https://mathenchant.wordpress.com/2019/10/16/guess-again-the-ehrenfeucht-mycielski-sequence/), [integer sorting in linear time](https://www.sciencedirect.com/science/article/pii/S002200009891580X), and a few secret ones :-)
 
-While most of my [recent research](https://aletcher.github.io/publications/) centers around game theory and reinforcement learning, I am increasingly interested in the pressing problem of AI [alignment](https://www.alignmentforum.org/) & [safety](https://arxiv.org/pdf/1606.06565.pdf), along with [abstraction & reasoning](https://github.com/fchollet/ARC).
+Previously: Worked @ [IBM Research Zurich](https://www.zurich.ibm.com) after completing my MSc in Mathematics & Theoretical CS @ [University of Oxford](https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematics-and-foundations-computer-science)
