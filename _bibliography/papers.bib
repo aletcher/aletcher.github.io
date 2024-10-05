@@ -1,24 +1,28 @@
 ---
 ---
 
-@article{quantum,
-      title={Tight and Efficient Gradient Bounds for Parameterized Quantum Circuits}, 
-      author={A. Letcher and S. Woerner and C. Zoufal},
-      year={2024},
-      arxiv={2309.12681},
-      abbr={preprint},
-      journal={preprint},
-      abstract={The training of a parameterized model largely depends on the landscape of the underlying loss function. In particular, vanishing gradients (also known as barren plateaus) are a central bottleneck in the scalability of variational quantum algorithms (VQAs), and are known to arise in various ways, from circuit depth and hardware noise to global observables. However, a caveat of most existing gradient bound results is the requirement of t-design circuit assumptions that are typically not satisfied in practice. In this work, we loosen these assumptions altogether and derive tight upper and lower bounds on loss and gradient concentration for a large class of parameterized quantum circuits and arbitrary observables, which are significantly stronger than prior work. Moreover, we show that these bounds, as well as the variance of the loss itself, can be estimated efficiently and classically--providing practical tools to study the loss landscapes of VQA models, including verifying whether or not a circuit/observable induces barren plateaus. This insight has direct implications for hybrid Quantum Generative Adversarial Networks (qGANs), a generative model that can be reformulated as a VQA with an observable composed of local and global terms. We prove that designing the discriminator appropriately leads to 1-local weights that stay constant in the number of qubits, regardless of discriminator depth. Combined with our first contribution, this implies that qGANs with shallow generators can be trained at scale without suffering from barren plateaus, making them a promising candidate for applications in generative quantum machine learning. We demonstrate this result by training a qGAN to learn a 2D mixture of Gaussian distributions with up to 16 qubits, and provide numerical evidence that global contributions to the gradient may kick in substantially over the course of training.}
-}
-
 @article{polymatrix,
   title={Polymatrix Competitive Gradient Descent},
   author={J. Ma and A. Letcher and F. Sch{\"a}fer and Y. Shi and A. Anandkumar},
-  year={2023},
+  year={2024},
   abbr={preprint},
   arxiv={2111.08565},
   journal={preprint},
   abstract={Many economic games and machine learning approaches can be cast as competitive optimization problems where multiple agents are minimizing their respective objective function, which depends on all agents' actions. While gradient descent is a reliable basic workhorse for single-agent optimization, it often leads to oscillation in competitive optimization. In this work we propose polymatrix competitive gradient descent (PCGD) as a method for solving general sum competitive optimization involving arbitrary numbers of agents. The updates of our method are obtained as the Nash equilibria of a local polymatrix approximation with a quadratic regularization, and can be computed efficiently by solving a linear system of equations. We prove local convergence of PCGD to stable fixed points for n-player general-sum games, and show that it does not require adapting the step size to the strength of the player-interactions. We use PCGD to optimize policies in multi-agent reinforcement learning and demonstrate its advantages in Snake, Markov soccer and an electricity market game. Agents trained by PCGD outperform agents trained with simultaneous gradient descent, symplectic gradient adjustment, and extragradient in Snake and Markov soccer games and on the electricity market game, PCGD trains faster than both simultaneous gradient descent and the extragradient method.}
+}
+
+@article{quantum-gradient-bounds,
+  doi = {10.22331/q-2024-09-25-1484},
+  title = {Tight and {E}fficient {G}radient {B}ounds for {P}arameterized {Q}uantum {C}ircuits},
+  author = {Letcher, Alistair and Woerner, Stefan and Zoufal, Christa},
+  journal = {{Quantum Journal}},
+  abbr = {Quantum}
+  html={https://quantum-journal.org/papers/q-2024-09-25-1484/},
+  volume = {8},
+  pages = {1484},
+  year = {2024},
+  arxiv = {2309.12681},
+  abstract = {The training of a parameterized model largely depends on the landscape of the underlying loss function. In particular, vanishing gradients are a central bottleneck in the scalability of variational quantum algorithms (VQAs), and are known to arise in various ways. However, a caveat of most existing gradient bound results is the requirement of t-design circuit assumptions that are typically not satisfied in practice. In this work, we loosen these assumptions altogether and derive tight upper and lower bounds on loss and gradient concentration for a large class of parameterized quantum circuits and arbitrary observables, which are significantly stronger than prior work. Moreover, we show that these bounds, as well as the variance of the loss itself, can be estimated efficiently and classically-providing practical tools to study the loss landscapes of VQA models, including verifying whether or not a circuit/observable induces barren plateaus. In particular, our results can readily be leveraged to rule out barren plateaus for a realistic class of ansätze and mixed observables, namely, observables containing a non-vanishing local term. This insight has direct implications for hybrid Quantum Generative Adversarial Networks (qGANs). We prove that designing the discriminator appropriately leads to 1-local weights that stay constant in the number of qubits, regardless of discriminator depth. This implies that qGANs with appropriately chosen generators do not suffer from barren plateaus even at scale-making them a promising candidate for applications in generative quantum machine learning. We demonstrate this result by training a qGAN to learn a 2D mixture of Gaussian distributions with up to 16 qubits, and provide numerical evidence that global contributions to the gradient, while initially exponentially small, may kick in substantially over the course of training.}
 }
 
 @article{adversarial,
