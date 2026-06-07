@@ -13,6 +13,7 @@ group :jekyll_plugins do
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
+    gem 'sass-embedded', '< 1.100.0'
     gem 'unicode_utils'
     gem 'webrick'
     gem 'htmlcompressor'
