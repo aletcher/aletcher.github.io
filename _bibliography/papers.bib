@@ -1,34 +1,48 @@
 ---
 ---
 
-@article{leo,
-  year = {2030},
-  title = {How Do Pauli Gates Propagate?},
-  author = {Letcher, A.},
-  abbr = {preprint},
-  abstract = {Among the primary building blocks of quantum circuits are the Pauli gates (X, Y, Z) and their controlled counterparts (usually CX or CZ). The latter are commonly stacked together to form entanglement layers in a linear / reverse-linear / pairwise / full or circular fashion, as implemented in the quantum computing library, Qiskit. This short article addresses the simple question of how Pauli gates ‘propagate’ across any number m of such layers. While this question is easily resolved for a single layer (m = 1), we prove explicit commutation relations for arbitrary m ∈ N using elementary combinatorics.}
-}
-
-@article{discobench,
-  year = {2030},
-  title = {Procedural Generation Of Algorithm Discovery Tasks in Machine Learning},
-  author = {Letcher, A.},
-  abbr = {preprint},
-  blog = {https://alexgoldie.github.io/discobench-blog/},
-  code = {https://github.com/AlexGoldie/discobench},
-  abstract = {Among the primary building blocks of quantum circuits are the Pauli gates (X, Y, Z) and their controlled counterparts (usually CX or CZ). The latter are commonly stacked together to form entanglement layers in a linear / reverse-linear / pairwise / full or circular fashion, as implemented in the quantum computing library, Qiskit. This short article addresses the simple question of how Pauli gates ‘propagate’ across any number m of such layers. While this question is easily resolved for a single layer (m = 1), we prove explicit commutation relations for arbitrary m ∈ N using elementary combinatorics.}
+@misc{world-models,
+  title={Inverting the Bellman Equation: From Q-Values to World Models}, 
+  author={Letcher, A. and Fellows, M. and Goldie, A. D. and Richens, J. and Foerster, J. N. and Richardson, O.},
+  year={2026},
+  abbr={preprint},
+  blog={https://inverting-bellman.github.io/},
+  code={https://github.com/aletcher/inverting-bellman},
+  arxiv={2606.21173},
+  abstract = {Model-based and model-free reinforcement learning are traditionally viewed as separate paradigms: instead of learning a model of the transition kernel P, model-free agents typically estimate value functions tied to a specific policy and reward. In this paper, we challenge this dichotomy by proving that value-based agents trained on a sufficiently rich set of reward functions, e.g. using goal-conditioned RL, implicitly encode a unique and accurate world model. To extract this model in practice, we introduce P-learning, an inverse analogue to Q-learning that samples from an agent's Q-values, policies and rewards to decode its internal model of the environment. We then provide sufficient conditions on the type and number of goals for which agents encode the true kernel P, covering both stochastic and deterministic MDPs over finite or continuous state spaces. Even when our assumptions are violated, we empirically demonstrate that agents trained on a handful of reward functions encode accurate dynamics in Reacher, MountainCar, and stochastic variants of FourRooms. Surprisingly, we find that policies trained exclusively on a Reacher agent's implicit world model are quasi-optimal on out-of-distribution, velocity-based goals despite position-only training -- suggesting that agents contain hidden generalisation capabilities and providing a new lens into the connection between model-based, model-free, and goal-conditioned RL.}
 }
 
 @article{eggroll,
   title={Evolution Strategies at the Hyperscale}, 
   author={B. Sarkar and M. Fellows and J. A. Duque and A. Letcher and A. L. Villares and A. Sims and C. Wibault and D. Samsonov and D. Cope and J. Liesen and K. Li and L. Seier and T. Wolf and U. Berdica and V. Mohl and A. D. Goldie and A. Courville and K. Sevegnani and S. Whiteson and J. N. Foerster},
   year={2026},
-  journal={preprint},
-  abbr={preprint},
+  abbr={ICML},
   arxiv={2511.16652},
   blog={https://eshyperscale.github.io/},
   code={https://github.com/ESHyperscale/HyperscaleES},
   abstract={Evolution Strategies (ES) is a class of powerful black-box optimisation methods that are highly parallelisable and can handle non-differentiable and noisy objectives. However, naïve ES becomes prohibitively expensive at scale on GPUs due to the low arithmetic intensity of batched matrix multiplications with unstructured random perturbations. We introduce Evolution Guided GeneRal Optimisation via Low-rank Learning (EGGROLL), which improves arithmetic intensity by structuring individual perturbations as rank-r matrices, resulting in a hundredfold increase in training speed for billion-parameter models at large population sizes, achieving up to 91% of the throughput of pure batch inference. We provide a rigorous theoretical analysis of Gaussian ES for high-dimensional parameter objectives, investigating conditions needed for ES updates to converge in high dimensions. Our results reveal a linearising effect, and proving consistency between EGGROLL and ES as parameter dimension increases. Our experiments show that EGGROLL: (1) enables the stable pretraining of nonlinear recurrent language models that operate purely in integer datatypes, (2) is competitive with GRPO for post-training LLMs on reasoning tasks, and (3) does not compromise performance compared to ES in tabula rasa RL settings, despite being faster.}
+}
+
+@article{discogen,
+  year = {2026},
+  title = {Procedural Generation Of Algorithm Discovery Tasks in Machine Learning},
+  author={Goldie, A. D. and Wang, Z. and Hayler, A. and Nathani, D. and Toledo, E. and Thampiratwong, K. and Kalisz, A. and Beukman, M. and Letcher, A. and Reddy, S. and Wibault, C. and Wolf, T. and O'Neill, C. and Berdica, U. and Roberts, N. and Rahmani, S. and Erlebach, H. and Raileanu, R. and Whiteson, S. and Foerster, J. N.},
+  abbr = {ICML},
+  arxiv={2603.17863},
+  blog = {https://disco-gen.github.io/},
+  code = {https://github.com/AlexGoldie/discogen},
+  abstract = {Automating the development of machine learning algorithms has the potential to unlock new breakthroughs. However, our ability to improve and evaluate algorithm discovery systems has thus far been limited by existing task suites. They suffer from many issues, such as: poor evaluation methodologies; data contamination; and containing saturated or very similar problems. Here, we introduce DiscoGen, a procedural generator of algorithm discovery tasks for machine learning, such as developing optimisers for reinforcement learning or loss functions for image classification. Motivated by the success of procedural generation in reinforcement learning, DiscoGen spans millions of tasks of varying difficulty and complexity from a range of machine learning fields. These tasks are specified by a small number of configuration parameters and can be used to optimise algorithm discovery agents (ADAs). We present DiscoBench, a benchmark consisting of a fixed, small subset of DiscoGen tasks for principled evaluation of ADAs. Finally, we propose a number of ambitious, impactful research directions enabled by DiscoGen, in addition to experiments demonstrating its use for prompt optimisation of an ADA. DiscoGen is released open-source at this https URL.}
+}
+
+@article{leo,
+  year = {2026},
+  title = {Goal-Conditioned Agents that Learn Everything All at Once},
+  author={Michael Matthews and Matthew Jackson and Michael Beukman and Thomas Foster and Alistair Letcher and Scott Fujimoto and Cédric Colas and Jakob Foerster},
+  abbr = {ICML},
+  arxiv={2605.23551},
+  blog={https://www.mtmatthews.com/blog/leo/},
+  code={https://github.com/MichaelTMatthews/purejaxgcrl},
+  abstract = {A goal-conditioned reinforcement learning agent exploring an environment will see a wealth of information throughout a trajectory, most of which is discarded when only performing on-policy updates with respect to the commanded goal. All-goals learning, where each transition is used for learning off-policy with respect to every goal, allows agents to extract maximal information, however it is usually computationally infeasible when done via naive relabelling. This can be overcome by jointly outputting values and actions for every goal at once, allowing for efficient, parallel all-goals updates with a single pass through the network, in a process we call Learning Everything all at Once (LEO). We show that this approach significantly outperforms other methods on goal-conditioned Craftax and is competitive with existing baselines on continuous control environments, while achieving a >250x speed-up compared to all-goals relabelling. We then go on to show that this approach can be made even more powerful by using LEO as a teacher network, rather than a direct actor. We hope that, by unlocking all-goals learning at scale, LEO can serve as a useful tool for RL practitioners in complex environments. We open source our code.}
 }
 
 @article{pauli-propagation,
@@ -54,7 +68,7 @@
   author={N. Monette and A. Letcher and M. Beukman and M. Jackson and A. Rutherford and A. Goldie and J. Foerster},
   year={2025},
   abbr={RLC},
-  html={https://openreview.net/pdf?id=WnknYUybWX},
+  % html={https://openreview.net/pdf?id=WnknYUybWX},
   arxiv={2505.20659},
   journal={Reinforcement Learning Conference},
   code={https://github.com/nmonette/NCC-UED},
@@ -68,7 +82,7 @@
   author = {Letcher, A. and Woerner, S. and Zoufal, C.},
   journal = {{Quantum Journal}},
   abbr = {QJ},
-  html = {https://quantum-journal.org/papers/q-2024-09-25-1484/},
+  % html = {https://quantum-journal.org/papers/q-2024-09-25-1484/},
   volume = {8},
   pages = {1484},
   year = {2024},
@@ -80,7 +94,7 @@
   title={Adversarial Cheap Talk},
   author={C. Lu and T. Willi and A. Letcher and J. Foerster},
   year={2023},
-  html={https://openreview.net/forum?id=3wxUzU2ZnM},
+  % html={https://openreview.net/forum?id=3wxUzU2ZnM},
   abbr={ICML},
   arxiv={2211.11030},
   journal={International Conference on Machine Learning},
@@ -91,7 +105,7 @@
   title={Discovered Policy Optimisation},
   author={C. Lu and J. Kuba and A. Letcher and L. Metz and C. Schroeder de Witt and J. Foerster},
   journal={Advances in Neural Information Processing Systems},
-  html={https://openreview.net/forum?id=bVVIZjQ2AA},
+  % html={https://openreview.net/forum?id=bVVIZjQ2AA},
   arxiv={2210.05639},
   year={2022},
   abbr={NIPS},
@@ -104,7 +118,7 @@
   journal={International Conference on Machine Learning},
   year={2022},
   abbr={ICML},
-  html={https://proceedings.mlr.press/v162/willi22a/willi22a.pdf},
+  % html={https://proceedings.mlr.press/v162/willi22a/willi22a.pdf},
   arxiv={2203.04098},
   abstract={Learning in general-sum games can be unstable and often leads to socially undesirable, Pareto-dominated outcomes. To mitigate this, Learning with Opponent-Learning Awareness (LOLA) introduced opponent shaping to this setting, by accounting for the agent's influence on the anticipated learning steps of other agents. However, the original LOLA formulation (and follow-up work) is inconsistent because LOLA models other agents as naive learners rather than LOLA agents. In previous work, this inconsistency was suggested as a cause of LOLA's failure to preserve stable fixed points (SFPs). First, we formalize consistency and show that higher-order LOLA (HOLA) solves LOLA's inconsistency problem if it converges. Second, we correct a claim made in the literature, by proving that, contrary to Schäfer and Anandkumar (2019), Competitive Gradient Descent (CGD) does not recover HOLA as a series expansion. Hence, CGD also does not solve the consistency problem. Third, we propose a new method called Consistent LOLA (COLA), which learns update functions that are consistent under mutual opponent shaping. It requires no more than second-order derivatives and learns consistent update functions even when HOLA fails to converge. However, we also prove that even consistent update functions do not preserve SFPs, contradicting the hypothesis that this shortcoming is caused by LOLA's inconsistency. Finally, in an empirical evaluation on a set of general-sum games, we find that COLA finds prosocial solutions and that it converges under a wider range of learning rates than HOLA and LOLA. We support the latter finding with a theoretical result for a simple game.}
 }
@@ -116,7 +130,7 @@
   year={2021},
   abbr={ICLR},
   code={https://github.com/aletcher/impossibility-global-convergence},
-  html={https://openreview.net/pdf?id=NQbnPjPYaG6},
+  % html={https://openreview.net/pdf?id=NQbnPjPYaG6},
   abstract={Under mild regularity conditions, gradient-based methods converge globally to a critical point in the single-loss setting. This is known to break down for vanilla gradient descent when moving to multi-loss optimization, but can we hope to build some algorithm with global guarantees? We negatively resolve this open problem by proving that any reasonable algorithm will exhibit limit cycles or diverge to infinite losses in some differentiable game, even in two-player games with zero-sum interactions. A reasonable algorithm is simply one which avoids strict maxima, an exceedingly weak assumption since converging to maxima would be the opposite of minimization. This impossibility theorem holds even if we impose existence of a strict minimum and no other critical points. The proof is constructive, enabling us to display explicit limit cycles for existing gradient-based methods. Nonetheless, it remains an open question whether cycles arise in high-dimensional games of interest to ML practitioners, such as GANs or multi-agent RL.},
   arxiv={2005.12649}
 }
@@ -128,7 +142,7 @@
   journal={Advances in Neural Information Processing Systems},
   year={2020},
   abstract={Over the last decade, a single algorithm has changed many facets of our lives - Stochastic Gradient Descent (SGD). In the era of ever decreasing loss functions, SGD and its various offspring have become the go-to optimization tool in machine learning and are a key component of the success of deep neural networks (DNNs). While SGD is guaranteed to converge to a local optimum (under loose assumptions), in some cases it may matter which local optimum is found, and this is often context-dependent. Examples frequently arise in machine learning, from shape-versus-texture-features to ensemble methods and zero-shot coordination. In these settings, there are desired solutions which SGD on 'standard' loss functions will not find, since it instead converges to the 'easy' solutions. In this paper, we present a different approach. Rather than following the gradient, which corresponds to a locally greedy direction, we instead follow the eigenvectors of the Hessian, which we call "ridges". By iteratively following and branching amongst the ridges, we effectively span the loss surface to find qualitatively different solutions. We show both theoretically and experimentally that our method, called Ridge Rider (RR), offers a promising direction for a variety of challenging problems.},
-  html={https://papers.nips.cc/paper/2020/hash/08425b881bcde94a383cd258cea331be-Abstract.html},
+  % html={https://papers.nips.cc/paper/2020/hash/08425b881bcde94a383cd258cea331be-Abstract.html},
   arxiv={2011.06505},
   blog={https://bair.berkeley.edu/blog/2020/11/13/ridge-rider/}
 }
@@ -140,7 +154,7 @@
   journal={Journal of Machine Learning Research},
   year={2019},
   abstract={Deep learning is built on the foundational guarantee that gradient descent on an objective function converges to local minima. Unfortunately, this guarantee fails in settings, such as generative adversarial nets, that exhibit multiple interacting losses. The behavior of gradient-based methods in games is not well understood -- and is becoming increasingly important as adversarial and multi-objective architectures proliferate. In this paper, we develop new tools to understand and control the dynamics in n-player differentiable games. The key result is to decompose the game Jacobian into two components. The first, symmetric component, is related to potential games, which reduce to gradient descent on an implicit function. The second, antisymmetric component, relates to Hamiltonian games, a new class of games that obey a conservation law akin to conservation laws in classical mechanical systems. The decomposition motivates Symplectic Gradient Adjustment (SGA), a new algorithm for finding stable fixed points in differentiable games. Basic experiments show SGA is competitive with recently proposed algorithms for finding stable fixed points in GANs -- while at the same time being applicable to, and having guarantees in, much more general cases.},
-  html={http://www.jmlr.org/papers/v20/19-008.html},
+  % html={http://www.jmlr.org/papers/v20/19-008.html},
   code={https://github.com/deepmind/symplectic-gradient-adjustment},
   arxiv={1905.04926}
 }
@@ -151,7 +165,7 @@
   journal={International Conference on Learning Representations},
   arxiv={1811.08469},
   abbr={ICLR},
-  html={https://openreview.net/forum?id=SyGjjsC5tQ},
+  % html={https://openreview.net/forum?id=SyGjjsC5tQ},
   code={https://github.com/aletcher/stable-opponent-shaping},
   abstract={A growing number of learning methods are actually games which optimise multiple, interdependent objectives in parallel -- from GANs and intrinsic curiosity to multi-agent RL. Opponent shaping is a powerful approach to improve learning dynamics in such games, accounting for the fact that the 'environment' includes agents adapting to one another's updates. Learning with Opponent-Learning Awareness (LOLA) is a recent algorithm which exploits this dynamic response and encourages cooperation in settings like the Iterated Prisoner's Dilemma. Although experimentally successful, we show that LOLA can exhibit 'arrogant' behaviour directly at odds with convergence. In fact, remarkably few algorithms have theoretical guarantees applying across all differentiable games. In this paper we present Stable Opponent Shaping (SOS), a new method that interpolates between LOLA and a stable variant named LookAhead. We prove that LookAhead locally converges and avoids strict saddles in all differentiable games, the strongest results in the field so far. SOS inherits these desirable guarantees, while also shaping the learning of opponents and consistently either matching or outperforming LOLA experimentally.},
   year={2019}
@@ -164,6 +178,6 @@
   year={2018},
   abbr={ICASSP},
   arxiv={1711.05355},
-  html={https://ieeexplore.ieee.org/document/8461425},
+  % html={https://ieeexplore.ieee.org/document/8461425},
   abstract={Automatic conflict detection has grown in relevance with the advent of body-worn technology, but existing metrics such as turn-taking and overlap are poor indicators of conflict in police-public interactions. Moreover, standard techniques to compute them fall short when applied to such diversified and noisy contexts. We develop a pipeline catered to this task combining adaptive noise removal, non-speech filtering and new measures of conflict based on the repetition and intensity of phrases in speech. We demonstrate the effectiveness of our approach on body-worn audio data collected by the Los Angeles Police Department.}
 }
