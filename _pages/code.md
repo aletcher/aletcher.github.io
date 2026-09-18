@@ -6,9 +6,13 @@ description: Research code releases.
 nav: true
 ---
 
+<h3 class="code">{{"Inverting the Bellman Equation: From Q-Values to World Models"}}</h3>
+
+A [codebase](https://github.com/aletcher/inverting-bellman) for my recent paper, [Inverting the Bellman Equation](https://inverting-bellman.github.io/), written in JAX. Contains an implementation of P-learning, which extracts a WM from the policy/value functions of any RL agent. Our results show that agents trained on just a handful of goals encode accurate dynamics in Reacher, MountainCar, and stochastic FourRooms, even over variables that rewards never directly depend on.
+
 <h3 class="code">{{"Global Convergence in Differentiable Games"}}</h3>
 
-Here is a [notebook](https://github.com/aletcher/impossibility-global-convergence) to accompany my recent paper, [On the Impossibility of Global Convergence in Multi-Loss Optimization](https://openreview.net/pdf?id=NQbnPjPYaG6). Implements a number of multi-loss optimization methods that are shown to enter limit cycles instead of converging in a two-parameter zero-sum game, despite being weakly-coercive, analytic and nondegenerate. This includes GD, AGD, EG, OMD, CO, SGA, LA, LOLA, SOS, and CGD.
+A [notebook](https://github.com/aletcher/impossibility-global-convergence) to accompany my paper, [On the Impossibility of Global Convergence in Multi-Loss Optimization](https://openreview.net/pdf?id=NQbnPjPYaG6). Implements a number of multi-loss optimization methods that are shown to enter limit cycles instead of converging in a two-parameter zero-sum game, despite being weakly-coercive, analytic and nondegenerate. This includes GD, AGD, EG, OMD, CO, SGA, LA, LOLA, SOS, and CGD.
 
 This undesirable phenomenom is shown to apply more generally to any 'reasonable' algorithm in the paper, ruling out the possibility of global convergence guarantees in multi-loss optimization.<br/><br/>
 
