@@ -6,9 +6,9 @@ description: Research code releases.
 nav: true
 ---
 
-<h3 class="code">{{"Inverting the Bellman Equation: From Q-Values to World Models"}}</h3>
+<h3 class="code">{{"Extracting World Models from Agents"}}</h3>
 
-A [codebase](https://github.com/aletcher/inverting-bellman) for my recent paper, [Inverting the Bellman Equation](https://inverting-bellman.github.io/), written in JAX. Contains an implementation of P-learning, which extracts a WM from the policy/value functions of any RL agent. Our results show that agents trained on just a handful of goals encode accurate dynamics in MuJoCo [Reacher](https://gymnasium.farama.org/environments/mujoco/reacher/), [MountainCar](https://gymnasium.farama.org/environments/classic_control/mountain_car/), and stochastic gridworlds, even over variables that rewards never directly depend on.
+A [codebase](https://github.com/aletcher/inverting-bellman) for my work on [Inverting the Bellman Equation: From Q-Values to World Models](https://inverting-bellman.github.io/), written in JAX. Contains an implementation of P-learning, which extracts a world model from any RL agent. Our results show that agents trained on just a handful of goals encode accurate dynamics in MuJoCo [Reacher](https://gymnasium.farama.org/environments/mujoco/reacher/), [MountainCar](https://gymnasium.farama.org/environments/classic_control/mountain_car/), and stochastic gridworlds, even over variables that rewards never directly depend on.
 
 <h3 class="code">{{"Global Convergence in Differentiable Games"}}</h3>
 
